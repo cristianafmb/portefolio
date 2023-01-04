@@ -1,0 +1,26 @@
+{
+    "global":{
+        "title": "Olá",
+        "img": "https://res.cloudinary.com/dfih7sjty/image/upload/v1665318885/images/116431607_337149287450351_62333806296016290_n-removebg-preview_im5mve.png",
+        "alt": "Cristiana Baiorte",
+        "menu": {
+            "links": [
+                {
+                    "text": "À propos de moi",
+                    "link": ""
+                },
+                {
+                    "text": "Projets",
+                    "link": ""
+                },
+                {
+                    "text": "Contacts",
+                    "link": ""
+                }
+            ]
+        }
+    },
+    "bgimgs": [
+        "/images/blue-circle.svg"
+    ]
+}
