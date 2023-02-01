@@ -3,24 +3,90 @@
         "title": "Olá",
         "img": "https://res.cloudinary.com/dfih7sjty/image/upload/v1665318885/images/116431607_337149287450351_62333806296016290_n-removebg-preview_im5mve.png",
         "alt": "Cristiana Baiorte",
-        "menu": {
-            "links": [
-                {
-                    "text": "About me",
-                    "link": ""
-                },
-                {
-                    "text": "Porjects",
-                    "link": ""
-                },
-                {
-                    "text": "Contacts",
-                    "link": ""
-                }
-            ]
-        }
+        "icons":[
+            {
+                "section": "brands",
+                "icon": "faGithub",
+                "link": "https://github.com/cristianafmb"
+            },
+            {
+                "section": "icons",
+                "icon": "faEnvelopesBulk",
+                "link": "mailto:cbaiorte@gmail.com"
+            },
+            {
+                "section": "icons",
+                "icon": "faPhoneAlt",
+                "link": "tel:+351912992834"
+            }
+        ]
     },
-    "bgimgs": [
-        "/images/blue-circle.svg"
-    ]
+    "projects":{
+        "title": "Projects",
+        "list": [
+            {
+                "link": "https://ecard1.gatsbyjs.io/",
+                "title": "Ecard",
+                "description": "Virtual card to share which contains the available contact networks",
+                "espcs":[
+                    {
+                        "icon": "faJs",
+                        "text": "Javascript"
+                    },
+                    {
+                        "icon": "faReact",
+                        "text": "React"
+                    }
+                ]
+            },
+            {
+                "link": "https://codehs.com/sandbox/id/euromillions-EhDS4I",
+                "title": "Euromillions",
+                "description": "After inserting 5 stars and 12 numbers, it calculates the Euromillions result, and checks if there was any value that the user has got right",
+                "espcs":[
+                    {
+                        "icon": "faPython",
+                        "text": "Python"
+                    }
+                ]
+            },
+            {
+                "link": "https://codehs.com/sandbox/id/project-pEgf2F",
+                "title": "Contacts with Database, CSV File and Logs",
+                "description": "Reads, inserts and deletes contacts stored in a database, save contacts from the database to a .csv file and logs each action.",
+                "espcs":[
+                    {
+                        "icon": "faPython",
+                        "text": "Python"
+                    }
+                ]
+            },
+            {
+                "link": "https://logo.gatsbyjs.io/",
+                "title": "Clinic",
+                "description": "A clinic example with multiple specialties only in portuguese",
+                "espcs":[
+                    {
+                        "icon": "faJs",
+                        "text": "Javascript"
+                    },
+                    {
+                        "icon": "faReact",
+                        "text": "React"
+                    }
+                ]
+            }
+        ]
+    },
+    "form":{
+        "title": "When it comes to investing, there is no such thing as a one-size-fits-all portfolio",
+        "subtitle": "Get in touch",
+        "inputs":{
+            "name": "Name",
+            "company": "Company",
+            "email": "Email",
+            "message": "Message"
+        },
+        "btnText": "Send"
+    }
 }

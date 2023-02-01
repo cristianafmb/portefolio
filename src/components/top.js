@@ -5,17 +5,17 @@ import '../styles/app.scss';
 const Top = ({ data }) => {
 	return (
 		<div className="container-bg-top">
-			<div class="container">
-				<div class="box">
-					<div class="title">
-						<span class="block" />
-						<h1>
+			<div className="container">
+				<div className="box">
+					<div className="title">
+						<span className="block" />
+						<h1 className=' dsMedium'>
 							Cristiana Baiorte<span />
 						</h1>
 					</div>
 
-					<div class="role">
-						<div class="block" />
+					<div className="role">
+						<div className="block" />
 						<p>Developer</p>
 					</div>
 				</div>

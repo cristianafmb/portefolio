@@ -28,7 +28,7 @@ module.exports = {
 			resolve: `gatsby-plugin-react-i18next`,
 			options: {
 				localeJsonSourceName: `locale`,
-				languages: [ `es`, `en`, `fr`, `pt` ],
+				languages: [ `es`, `en`, `pt` ],
 				defaultLanguage: `pt`,
 				generateDefaultLanguagePage: true,
 				siteUrl: `https://cristiana.gatsbyio/`,

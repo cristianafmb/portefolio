@@ -3,24 +3,90 @@
         "title": "Portefolio",
         "img": "https://res.cloudinary.com/dfih7sjty/image/upload/v1665318885/images/116431607_337149287450351_62333806296016290_n-removebg-preview_im5mve.png",
         "alt": "Cristiana Baiorte",
-        "menu": {
-            "links": [
-                {
-                    "text": "Sobre",
-                    "link": ""
-                },
-                {
-                    "text": "Projectos",
-                    "link": ""
-                },
-                {
-                    "text": "Contactos",
-                    "link": ""
-                }
-            ]
-        },
-        "bgimgs": [
-            "/images/blue-circle.svg"
+        "icons":[
+            {
+                "section": "brands",
+                "icon": "faGithub",
+                "link": "https://github.com/cristianafmb"
+            },
+            {
+                "section": "icons",
+                "icon": "faEnvelope",
+                "link": "mailto:cbaiorte@gmail.com"
+            },
+            {
+                "section": "icons",
+                "icon": "faPhoneAlt",
+                "link": "tel:+351912992834"
+            }
         ]
+    },
+    "projects":{
+        "title": "Projectos",
+        "list": [
+            {
+                "link": "https://ecard1.gatsbyjs.io/",
+                "title": "Ecard Virtual",
+                "description": "Cartão virtual para partilhar onde contém as redes disponíveis de contacto",
+                "espcs":[
+                    {
+                        "icon": "faJs",
+                        "text": "Javascript"
+                    },
+                    {
+                        "icon": "faReact",
+                        "text": "React"
+                    }
+                ]
+            },
+            {
+                "link": "https://codehs.com/sandbox/id/euromilhoes-nrZ1I2",
+                "title": "Euromilhões",
+                "description": "Depois de inserir 5 estrelas e 12 números, calcula o resultado do Euromilhões, e verifica se houve algum valor que o utilizador tenha acertado",
+                "espcs":[
+                    {
+                        "icon": "faPython",
+                        "text": "Python"
+                    }
+                ]
+            },
+            {
+                "link": "https://codehs.com/sandbox/id/project-pEgf2F",
+                "title": "Contactos com Base de Dados, Ficheiro CSV e Logs",
+                "description": "Lê, insere e elimina contactos guardados numa base de dados, guarda os contactos da base de dados para um ficheiro .csv e faz logs de cada ação.",
+                "espcs":[
+                    {
+                        "icon": "faPython",
+                        "text": "Python"
+                    }
+                ]
+            },
+            {
+                "link": "https://logo.gatsbyjs.io/",
+                "title": "Clínica",
+                "description": "Exemplo de uma clínica com várias especialidades apenas em português",
+                "espcs":[
+                    {
+                        "icon": "faJs",
+                        "text": "Javascript"
+                    },
+                    {
+                        "icon": "faReact",
+                        "text": "React"
+                    }
+                ]
+            }
+        ]
+    },
+    "form":{
+        "title": "Quando se trata de investir, não existe um portfólio único para todos",
+        "subtitle": "Entre em contacto",
+        "inputs":{
+            "name": "Nome",
+            "company": "Empresa",
+            "email": "Email",
+            "message": "Mensagem"
+        },
+        "btnText": "Enviar"
     }
 }

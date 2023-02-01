@@ -3,24 +3,64 @@
         "title": "Olá",
         "img": "https://res.cloudinary.com/dfih7sjty/image/upload/v1665318885/images/116431607_337149287450351_62333806296016290_n-removebg-preview_im5mve.png",
         "alt": "Cristiana Baiorte",
-        "menu": {
-            "links": [
-                {
-                    "text": "Sobre mi",
-                    "link": ""
-                },
-                {
-                    "text": "Proyectos",
-                    "link": ""
-                },
-                {
-                    "text": "Contactos",
-                    "link": ""
-                }
-            ]
-        }
+        "icons":[
+            {
+                "section": "brands",
+                "icon": "faGithub",
+                "link": "https://github.com/cristianafmb"
+            },
+            {
+                "section": "icons",
+                "icon": "faEnvelope",
+                "link": "mailto:cbaiorte@gmail.com"
+            },
+            {
+                "section": "icons",
+                "icon": "faPhoneAlt",
+                "link": "tel:+351912992834"
+            }
+        ]
     },
-    "bgimgs": [
-        "/images/blue-circle.svg"
-    ]
+    "projects":{
+        "title": "Proyectos",
+        "list": [
+            {
+                "link": "https://ecard1.gatsbyjs.io/",
+                "title": "Ecard Virtual",
+                "description": "Cartão virtual para compartir que contiene las redes de contactos disponibles",
+                "espcs":[
+                    {
+                        "icon": "faJs",
+                        "text": "Javascript"
+                    },
+                    {
+                        "icon": "faReact",
+                        "text": "React"
+                    }
+                ]
+            },
+            {
+                "link": "https://ecard1.gatsbyjs.io/",
+                "title": "Euromillones",
+                "description": "Después de insertar 5 estrellas y 12 números, calcula el resultado de Euromillones y comprueba si hubo algún valor que el usuario haya acertado.",
+                "espcs":[
+                    {
+                        "icon": "faPython",
+                        "text": "Python"
+                    }
+                ]
+            }
+        ]
+    },
+    "form":{
+        "title": "Cuando se trata de invertir, no existe tal cosa como una cartera única para todos",
+        "subtitle": "Hacer contacto",
+        "inputs":{
+            "name": "Nombre",
+            "company": "Empresa",
+            "email": "Email",
+            "message": "Mensaje"
+        },
+        "btnText": "Enviar"
+    }
 }
