@@ -27,7 +27,7 @@ const MenuGlobal = ({ global }) => {
 				</div>
 				<div className="container-icons-social-hide-desktop">
 					{global.icons.map((icon, index) => (
-						<a href={icon.link} key={'icon' + index}>
+						<a href={icon.link} key={'icon' + index} target="_blank">
 							{icon.section === 'brands' ? (
 								<FontAwesomeIcon icon={Brands[icon.icon]} />
 							) : (
