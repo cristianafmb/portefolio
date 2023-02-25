@@ -901,6 +901,14 @@ body {
                     display: block;
                 }
             }
+
+            &:hover {
+                padding: 1.5rem;
+            }
+
+            input{
+                padding: 0.5em;
+            }
         }
     }
 
@@ -1252,6 +1260,9 @@ body {
             }
         }
 
+        @media (max-width: 1000px){
+            height: 10vh;
+        }
     }
 }
 

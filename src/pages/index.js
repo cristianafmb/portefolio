@@ -8,7 +8,7 @@ import Top from '../components/top';
 import Projects from '../components/home/projects';
 import AboutSection from '../components/home/about';
 
-import videoSrcURL2 from '../../static/artifact.gif';
+import videoSrcURL2 from '../images/artifact.gif';
 
 const IndexPage = ({ data }) => {
 	const { t } = useTranslation();
