@@ -15,8 +15,8 @@ const IndexPage = ({ data }) => {
 
 	return (
 		<Layout data={t('global', { returnObjects: true })}>
-			<div className="bg-fullscreen-video" style={{  backgroundImage: `url(${videoSrcURL2})`, backgroundRepeat: 'no-repeat', 
-			backgroundPosition: 'center', backgroundSize: 'cover'}}>
+			<div className="bg-fullscreen-video">
+				<img id="myVideo" src={videoSrcURL2} alt="teste-bg" />
 			</div>
 
 			
