@@ -1296,4 +1296,8 @@ body {
 }
 .modal-dialog{
     top: 18vw !important;
+
+    @media (max-eidth: 1000px){
+        top: 40vh !important;
+    }
 }
