@@ -49,6 +49,32 @@
                         "text": "Python"
                     }
                 ]
+            },
+            {
+                "link": "https://codehs.com/sandbox/id/project-pEgf2F",
+                "title": "Contactos con base de datos, archivo CSV y registros",
+                "description": "Lee, inserta y elimina contactos almacenados en una base de datos, guarda contactos de la base de datos en un archivo .csv y registra cada acción.",
+                "espcs":[
+                    {
+                        "icon": "faPython",
+                        "text": "Python"
+                    }
+                ]
+            },
+            {
+                "link": "https://logo.gatsbyjs.io/",
+                "title": "Clínica",
+                "description": "Ejemplo de clínica multiespecialidad solo en portugués",
+                "espcs":[
+                    {
+                        "icon": "faJs",
+                        "text": "Javascript"
+                    },
+                    {
+                        "icon": "faReact",
+                        "text": "React"
+                    }
+                ]
             }
         ]
     },
