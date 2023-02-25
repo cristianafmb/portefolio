@@ -7,7 +7,6 @@ import { Link, useI18next } from 'gatsby-plugin-react-i18next';
 
 const MenuGlobal = ({ global }) => {
 	const { languages, originalPath, language, changeLanguage } = useI18next();
-	console.log(language);
 	return (
 		<div className="fullscreen">
 			<div className="languages-container">

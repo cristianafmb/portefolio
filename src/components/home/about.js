@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { send } from 'emailjs-com';
 
+import Button from 'react-bootstrap/Button';
+import Modal from 'react-bootstrap/Modal';
+
 import '../../styles/app.scss';
 
 const About = ({ data }) => {
@@ -13,6 +16,12 @@ const About = ({ data }) => {
 
 	const [ sucess, setSuccess ] = useState(false);
 	const [ error, setError ] = useState(false);
+
+	const [show, setShow] = useState(false);
+
+	const handleClose = () => setShow(false);
+
+	var messageToShow = Array();
 
 	var errorsToShow = Array();
 
@@ -32,20 +41,29 @@ const About = ({ data }) => {
 		return errorsToShow.length;
 	}
 
+	console.log(messageToShow)
+
 	const onSubmit = (e) => {
 		e.preventDefault();
 
 		if (checkValues() > 0) {
 			setError(true);
+			setShow(true);
+			if(checkValues() == 1){
+				messageToShow = data.error.singular
+			}else{
+				messageToShow = data.error.plural
+			}
 		} else {
 			send('service_jn4uu0s', 'template_5ql8slh', toSend, 'NdTcXF9EUKq2BkALT')
 				.then((response) => {
 					setSuccess(true);
-					console.log('SUCCESS!', response.status, response.text);
+					setShow(true);
+					messageToShow = data.sucess.text
 				})
 				.catch((err) => {
 					setError(true);
-					console.log('FAILED...', err);
+					setShow(true);
 				});
 		}
 	};
@@ -55,10 +73,25 @@ const About = ({ data }) => {
 	};
 
 	return (
+		<>
+		<Modal show={show} onHide={handleClose}>
+		<Modal.Header closeButton>
+        </Modal.Header>
+		{console.log(messageToShow)}
+		{error ? ( <Modal.Body>
+			<p>
+		{errorsToShow}
+		</p>
+		</Modal.Body>)
+		:
+		( <Modal.Body>
+			{messageToShow}
+			</Modal.Body>)}
+      
+       
+      </Modal>
 		<div className="margin-container  fullscreen ml-auto mr-auto">
-			{/**<div className="  m-auto width-80 fullscreen container-form">
-			</div>*/}
-
+		
 			<section className="bg3">
 				<div className="container">
 					<form>
@@ -116,6 +149,7 @@ const About = ({ data }) => {
 				</div>
 			</section>
 		</div>
+		</>
 	);
 };
 

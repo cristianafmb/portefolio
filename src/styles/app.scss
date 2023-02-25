@@ -1254,3 +1254,15 @@ body {
 
     }
 }
+
+.modal{
+    display: block  !important;
+    position: absolute  !important;
+    top: auto  !important;
+    bottom: auto  !important;
+    margin-top: auto  !important;
+    margin-bottom: auto  !important;
+}
+.modal-dialog{
+    top: 18vw !important;
+}

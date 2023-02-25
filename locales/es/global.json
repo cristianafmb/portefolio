@@ -61,6 +61,13 @@
             "email": "Email",
             "message": "Mensaje"
         },
-        "btnText": "Enviar"
+        "btnText": "Enviar",
+        "error":{
+            "singular": "Falta el siguiente campo:",
+            "plural": "Falta los siguientes campos:"
+        },
+        "sucess":{
+            "text": "Email enviado!"
+        }
     }
 }
