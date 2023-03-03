@@ -40,7 +40,7 @@
                 ]
             },
             {
-                "link": "https://codehs.com/sandbox/id/euromillions-EhDS4I",
+                "link": "https://codehs.com/sandbox/id/euromillions-EhDS4I/run",
                 "title": "Euromillones",
                 "description": "Después de insertar 5 estrellas y 12 números, calcula el resultado de Euromillones y comprueba si hubo algún valor que el usuario haya acertado.",
                 "espcs":[
@@ -51,7 +51,7 @@
                 ]
             },
             {
-                "link": "https://codehs.com/sandbox/id/project-pEgf2F",
+                "link": "https://codehs.com/sandbox/id/project-pEgf2F/run",
                 "title": "Contactos con base de datos, archivo CSV y registros",
                 "description": "Lee, inserta y elimina contactos almacenados en una base de datos, guarda contactos de la base de datos en un archivo .csv y registra cada acción.",
                 "espcs":[

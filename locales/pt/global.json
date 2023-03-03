@@ -40,7 +40,7 @@
                 ]
             },
             {
-                "link": "https://codehs.com/sandbox/id/euromilhoes-nrZ1I2",
+                "link": "https://codehs.com/sandbox/id/euromilhoes-nrZ1I2/run",
                 "title": "Euromilhões",
                 "description": "Depois de inserir 5 estrelas e 12 números, calcula o resultado do Euromilhões, e verifica se houve algum valor que o utilizador tenha acertado",
                 "espcs":[
@@ -51,7 +51,7 @@
                 ]
             },
             {
-                "link": "https://codehs.com/sandbox/id/project-pEgf2F",
+                "link": "https://codehs.com/sandbox/id/project-pEgf2F/run",
                 "title": "Contactos com Base de Dados, Ficheiro CSV e Logs",
                 "description": "Lê, insere e elimina contactos guardados numa base de dados, guarda os contactos da base de dados para um ficheiro .csv e faz logs de cada ação.",
                 "espcs":[
